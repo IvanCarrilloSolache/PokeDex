@@ -1,18 +1,13 @@
 
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
+    <div className="app-contaner">
+        <h1>
           PokeDex
-        </p>
+        </h1>
         <a>
           Find your Pokemon
         </a>
-      </header>
     </div>
   );
 }
