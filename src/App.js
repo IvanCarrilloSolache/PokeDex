@@ -32,7 +32,7 @@ function App() {
       <h1> PokeDex</h1>
       <h2> Find your Pokemon</h2>
       <div className="pokemon-component">
-        <div className="all-component">
+        <div className="all-components">
           {allPokemon.map(pokemon => <li>{pokemon.name}</li>)}
         </div>
         <buttom className="load-more">Load More</buttom>
