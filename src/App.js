@@ -33,7 +33,7 @@ function App() {
       <h2> Find your Pokemon</h2>
       <div className="pokemon-component">
         <div className="all-component">
-
+          {allPokemon.map(pokemon => <li>{pokemon.name}</li>)}
         </div>
         <buttom className="load-more">Load More</buttom>
       </div>

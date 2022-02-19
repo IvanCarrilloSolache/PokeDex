@@ -62,7 +62,7 @@ code {
   align-items: center;
   justify-content: center;
 }
-.thumb-component {
+.skim-component {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,16 +78,16 @@ code {
 h3 {
   margin-bottom: 0.2rem;
 }
-.thumb-component .number {
+.skim-component .number {
   border-radius: 1rem;
   padding: 0.2rem 0.4rem;
   background-color: rgba(255,255,255,0.3);
 }
-.thumb-component img {
+.skim-component img {
   width: 120px;
   height: 120px;
 }
-.thumb-component small {
+.skim-component small {
   text-transform: capitalize;
 }
 .detail-wrapper {
