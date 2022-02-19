@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PokemonSkim from "./components/pokemonSkim";
 
 function App() {
 
@@ -30,10 +31,18 @@ function App() {
   return (
     <div className="app-component">
       <h1> PokeDex</h1>
-      <h2> Find your Pokemon</h2>
+      <h2> Find your PokEvol</h2>
       <div className="pokemon-component">
-        <div className="all-components">
-          {allPokemon.map(pokemon => <li>{pokemon.name}</li>)}
+        <div className="all-component">
+          {allPokemon.map((pokemon, index) =>
+            <PokemonSkim
+            id={pokemon.id}
+            name={pokemon.name}
+            image={pokemon.sprites.other.dream_world.front_default}
+            type={pokemon.types[0].type.name}
+            key={index}
+            />
+          )}
         </div>
         <buttom className="load-more">Load More</buttom>
       </div>

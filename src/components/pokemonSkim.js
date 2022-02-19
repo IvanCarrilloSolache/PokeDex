@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PokemonSkim = ({id, image, name, type, _callback }) => {
-    const style = type + " skim-container";
+    const style = type + " skim-component";
     return (
         <div className={style}>
             <div className="number"><small>#0{id}</small></div>
